@@ -1,0 +1,13 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.message {
+  color: #333;
+  border: #333 1px solid;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
