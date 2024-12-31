@@ -71,8 +71,9 @@ function App() {
   return (
     <>
       <div className="chat-area">
-        <h1>Enter Message</h1>
+        <div className="chat-title">Enter Message</div>
         <input
+          style={{ fontSize: 16, padding: 5 }}
           type="text"
           placeholder="Message"
           onChange={(e) => {
@@ -80,7 +81,9 @@ function App() {
             setMessage(e.target.value);
           }}
         />
-        <button onClick={sendMessage}>Send</button>
+        <button onClick={sendMessage} style={{ fontSize: 16, padding: 5 }}>
+          Send
+        </button>
       </div>
       <div className="messages">
         {messages.map((message) => (

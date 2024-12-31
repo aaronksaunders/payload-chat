@@ -11,3 +11,20 @@
   margin-bottom: 1rem;
   border-radius: 8px;
 }
+
+.chat-area {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  border: #333 1px solid;
+  padding: 1rem;
+  border-radius: 8px;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.chat-title {
+  font-size: 16px;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
